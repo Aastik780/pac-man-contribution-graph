@@ -1,11 +1,6 @@
-<div align="center">
-  <h1>Hey, I'm Aastik Gupta 👋</h1>
-  <p>Developer building Discord bots, automation tools, and fun side quests.</p>
-</div>
+# 🎮 Pac Man Contribution Graph
 
-## 🎮 Pac Man Contribution Graph
-
-My GitHub contribution graph, but Pac-Man is eating it.
+Generates an animated **Pac-Man arcade** version of my GitHub contribution graph — Pac-Man eats the squares while the ghosts chase him.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aastik780/pac-man-contribution-graph/output/pacman-contribution-graph-dark.svg">
@@ -13,16 +8,22 @@ My GitHub contribution graph, but Pac-Man is eating it.
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Aastik780/pac-man-contribution-graph/output/pacman-contribution-graph.svg">
 </picture>
 
-<p align="center"><i><a href="https://github.com/Aastik780/pac-man-contribution-graph">Aastik/pacman-contribution-graph</a></i></p>
+## ⚙️ How it works
 
-## 🧰 Things I build
+- A **GitHub Action** runs on every push, daily at `00:00 UTC`, or manually from the Actions tab
+- It fetches my contribution data and renders SVG games into the [`output`](https://github.com/Aastik780/pac-man-contribution-graph/tree/output) branch
+- The profile README at [Aastik780/Aastik780](https://github.com/Aastik780/Aastik780) embeds those SVGs
 
-- 🎵 **[Discord Music Bot](https://github.com/Aastik780/Discord-music-bot)** — a `~` prefix music bot powered by yt-dlp + FFmpeg: themed now-playing cards, radio & 24/7 mode, audio filters, playlists, and a one-click Windows launcher. No Java, no Lavalink.
+## 🕹️ Embed in your README
 
-## 📈 Stats
-
-![Aastik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aastik780&show_icons=true&theme=dark&hide_border=true)
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/output/pacman-contribution-graph.svg">
+</picture>
+```
 
 ---
 
-<p align="center">🕹️ <b>Waka waka.</b> Every square above is a day I shipped something.</p>
+<p align="center"><i>built with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a> · <a href="https://github.com/Aastik780/pac-man-contribution-graph">Aastik/pacman-contribution-graph</a></i></p>
