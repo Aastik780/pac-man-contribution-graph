@@ -3,7 +3,7 @@
   <p>Developer building Discord bots, automation tools, and fun side quests.</p>
 </div>
 
-## 🎮 Pac-Man Contribution Arcade
+## 🎮 Pac Man Contribution Graph
 
 My GitHub contribution graph, but Pac-Man is eating it.
 
