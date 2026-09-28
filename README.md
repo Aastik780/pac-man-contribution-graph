@@ -13,7 +13,7 @@ My GitHub contribution graph, but Pac-Man is eating it.
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Aastik780/Aastik780/output/pacman-contribution-graph.svg">
 </picture>
 
-<p align="center"><i>generated with <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a></i></p>
+<p align="center"><i><a href="https://github.com/Aastik780">Aastik/pacman-contribution-graph</a></i></p>
 
 ## 🧰 Things I build
 
